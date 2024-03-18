@@ -1,0 +1,43 @@
+name: arducon
+description: 'A Gamepad App for a Battle Bot built on Arduino'
+publish_to: 'none'
+version: 1.0.0
+
+environment:
+  sdk: '>=3.3.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  flutter_blue_plus: ^1.31.16
+
+  toastification: ^1.2.1
+
+  flutter_native_splash: ^2.3.13
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^3.0.0
+
+flutter:
+
+  uses-material-design: true
+
+  fonts:
+    - family: Expletus_Sans
+      fonts:
+        - asset: assets/fonts/Expletus_Sans/ExpletusSans-Bold.ttf
+        - asset: assets/fonts/Expletus_Sans/ExpletusSans-Medium.ttf
+        - asset: assets/fonts/Expletus_Sans/ExpletusSans-Regular.ttf
+        - asset: assets/fonts/Expletus_Sans/ExpletusSans-SemiBold.ttf
+
+    - family: Hind
+      fonts:
+        - asset: assets/fonts/Hind/Hind-Bold.ttf
+        - asset: assets/fonts/Hind/Hind-Light.ttf
+        - asset: assets/fonts/Hind/Hind-Medium.ttf
+        - asset: assets/fonts/Hind/Hind-Regular.ttf
+        - asset: assets/fonts/Hind/Hind-SemiBold.ttf
